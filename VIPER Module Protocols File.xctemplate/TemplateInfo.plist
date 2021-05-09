@@ -6,16 +6,20 @@
 	<array>
 		<string>public.swift-source</string>
 	</array>
-	<key>DefaultCompletionName</key>
-	<string>File</string>
-	<key>Description</key>
-	<string>Create a new VIPER Module</string>
-	<key>Kind</key>
-	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>Description</key>
+	<string>Create a new VIPER Module with protocols in a file</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -42,6 +46,8 @@
 		</dict>
 	</array>
 	<key>Summary</key>
-	<string>Create VIPER Module Template</string>
+	<string>Create VIPER Module Template with protocols in a file</string>
+	<key>Template Author</key>
+	<string>Alejandro Rivera - @chapsjrl</string>
 </dict>
 </plist>

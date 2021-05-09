@@ -1,10 +1,17 @@
 # VIPER Template
 Xcode File Template for generating VIPER modules: View, Interactor, Presenter, and Router. Written in Swift 5
+Forked from [zafarivaev] (https://github.com/zafarivaev/VIPER-Template) and intall using the script of [Juanpe] (https://github.com/Juanpe/Swift-VIPER-Module).
+Added other 2 styles of VIPER.
 
 # How To Install
-1. Clone the repository
-2. Navigate to Xcode Templates folder: ```~/Library/Developer/Xcode/Templates/```. If Templates folder doesn't exist, create it
-3. Copy and paste the VIPER Module.xctemplate in Templates folder
+## Using script (easy)
+Only need execute this command in terminal:
+```swift
+sudo swift install.swift
+```
+## Manual
+Go to Application folder, browse to the Xcode application icon. Right-click it and choose 'Show Package Contents'. Then browse to:
+`Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application` and add "Module VIPER.xctemplate" file. Now you can find your template in Xcode.
 
 # Use
 1. Open Xcode
