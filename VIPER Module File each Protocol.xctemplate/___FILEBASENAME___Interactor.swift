@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import ZEUS_UTIL_SDK
+//import ZEUS_UTILS_SDK
 //import Alamofire
 
 class ___VARIABLE_ModuleName___Interactor: PresenterToInteractor___VARIABLE_ModuleName___Protocol {
