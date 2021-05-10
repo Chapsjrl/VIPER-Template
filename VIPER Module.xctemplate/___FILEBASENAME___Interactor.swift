@@ -7,8 +7,6 @@
 //
 
 import UIKit
-//import ZEUS_UTILS_SDK
-//import Alamofire
 
 // MARK: Interactor Input (Presenter -> Interactor)
 protocol PresenterToInteractor___VARIABLE_ModuleName___Protocol: class {
@@ -22,14 +20,8 @@ class ___VARIABLE_ModuleName___Interactor: PresenterToInteractor___VARIABLE_Modu
 
     // MARK: Properties
     weak var _presenter: InteractorToPresenter___VARIABLE_ModuleName___Protocol?
-//    var statusService: Request?
-//    var genericServiceZeus = ZWSZeusStandartWebService()
     
 //    func requestData() {
-//        statusService?.cancel()
-        
-        // Verify network reachability
-        // Create request
-//        statusService = genericServiceZeus.post()
+//        
 //    }
 }
