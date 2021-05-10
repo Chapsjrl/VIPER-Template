@@ -11,7 +11,7 @@ import UIKit
 // MARK: View Output (Presenter -> View)
 protocol PresenterToView___VARIABLE_ModuleName___Protocol: class {
     
-    var _presenter: ViewToPresenter___VARIABLE_ModuleName___Protocol { get set }
+    var _presenter: ViewToPresenter___VARIABLE_ModuleName___Protocol? { get set }
     
 //    func setData()
 //    func setError()
