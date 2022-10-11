@@ -1,7 +1,7 @@
 //___FILEHEADER___
 import UIKit
 
-class ___VARIABLE_ModuleName___ViewController: UIViewController {
+class ___VARIABLE_ModuleName___VC: BaseConversationViewController {
     
     // MARK: - Lifecycle Methods
     
@@ -19,6 +19,6 @@ class ___VARIABLE_ModuleName___ViewController: UIViewController {
     var presenter: ViewToPresenter___VARIABLE_ModuleName___Protocol?
 }
 
-extension ___VARIABLE_ModuleName___ViewController: PresenterToView___VARIABLE_ModuleName___Protocol{
+extension ___VARIABLE_ModuleName___VC: PresenterToView___VARIABLE_ModuleName___Protocol{
     // TODO: Implement View Output Methods
 }

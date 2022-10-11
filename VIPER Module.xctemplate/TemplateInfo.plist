@@ -13,7 +13,7 @@
 	<key>DefaultCompletionName</key>
 	<string>File</string>
 	<key>Description</key>
-	<string>Create a new VIPER Module</string>
+	<string>Create a new VIPER Module with protocols in a file</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
@@ -43,10 +43,20 @@
 			<string>productName</string>
 			<key>Type</key>
 			<string>static</string>
+			<key>Values</key>
+			<array>
+				<string>___FILEBASENAME___</string>
+				<string>Datasource</string>
+				<string>Entities</string>
+				<string>Router</string>
+				<string>Interactor</string>
+				<string>Presenter</string>
+				<string>Views</string>
+			</array>
 		</dict>
 	</array>
 	<key>Summary</key>
-	<string>Create VIPER Module Template</string>
+	<string>Create VIPER Module Template with protocols in a file</string>
 	<key>Template Author</key>
 	<string>Alejandro Rivera - @chapsjrl</string>
 </dict>

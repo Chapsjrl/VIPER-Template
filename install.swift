@@ -7,8 +7,7 @@
 //
 import Foundation
 
-let templateNames = ["VIPER Module File Each Protocol.xctemplate",
-                    "VIPER Module Protocols File.xctemplate",
+let templateNames = ["VIPER Chat.xctemplate",
                     "VIPER Module.xctemplate"]
 let destinationRelativePath = "/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application"
 

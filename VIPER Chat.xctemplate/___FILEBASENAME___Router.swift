@@ -7,7 +7,7 @@ class ___VARIABLE_ModuleName___Router {
     // MARK: Static methods
     static func createModule(params: ___VARIABLE_ModuleName___Params) -> UIViewController {
         
-        let viewController = ___VARIABLE_ModuleName___ViewController()
+        let viewController = ___VARIABLE_ModuleName___VC()
         let interactor = ___VARIABLE_ModuleName___Interactor()
         let router = ___VARIABLE_ModuleName___Router()
         let presenter = ___VARIABLE_ModuleName___Presenter()

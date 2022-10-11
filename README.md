@@ -1,7 +1,7 @@
 # VIPER Template
 Xcode File Template for generating VIPER modules: View, Interactor, Presenter, and Router. Written in Swift 5
 Forked from [zafarivaev](https://github.com/zafarivaev/VIPER-Template) and install using the script of [Juanpe](https://github.com/Juanpe/Swift-VIPER-Module).
-Added other 2 styles of VIPER.
+Added VIPER for chat and generic module in chat.
 
 # How To Install
 ## Using script (easy)
