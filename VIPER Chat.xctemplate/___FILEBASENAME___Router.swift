@@ -5,7 +5,7 @@ import UIKit
 class ___VARIABLE_ModuleName___Router {
     
     // MARK: Static methods
-    static func createModule(params: ___VARIABLE_ModuleName___Params) -> UIViewController {
+    static func createModule(idChat: String) -> UIViewController {
         
         let viewController = ___VARIABLE_ModuleName___VC()
         let interactor = ___VARIABLE_ModuleName___Interactor()
@@ -17,7 +17,7 @@ class ___VARIABLE_ModuleName___Router {
         presenter.router = router
         presenter.view = viewController
         presenter.interactor = interactor
-        interactor.params = params
+        interactor.idChat = idChat
         interactor.presenter = presenter
         
         return viewController
